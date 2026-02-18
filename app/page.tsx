@@ -18,7 +18,6 @@ import Footer from '@/components/Footer'
 export default function Page() {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
       <Hero />
       <PartnerShowcase />
       <About />
@@ -30,7 +29,6 @@ export default function Page() {
       <Clients />
       <Certifications />
       <Contact />
-      <Footer />
     </div>
   )
 }

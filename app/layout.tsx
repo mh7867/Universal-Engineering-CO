@@ -2,6 +2,8 @@ import React from "react"
 import type { Metadata } from 'next'
 import { Michroma, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 import './globals.css'
 
 const michroma = Michroma({ weight: '400', subsets: ["latin"] });
@@ -37,7 +39,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans antialiased`}>
+        <Navigation />
         {children}
+        <Footer />
         <Analytics />
       </body>
     </html>

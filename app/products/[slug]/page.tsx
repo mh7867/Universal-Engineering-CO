@@ -1,6 +1,4 @@
 import Link from 'next/link'
-import Navigation from '@/components/Navigation'
-import Footer from '@/components/Footer'
 import ProductContent from '@/components/ProductContent'
 import products from '@/public/data/products.json'
 
@@ -30,7 +28,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
   if (!product) {
     return (
       <div>
-        <Navigation />
         <div className="min-h-screen bg-background flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-4xl font-heading font-bold text-[#231F20] mb-4">Product Not Found</h1>
@@ -39,16 +36,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
             </Link>
           </div>
         </div>
-        <Footer />
       </div>
     )
   }
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
       <ProductContent product={product} />
-      <Footer />
     </div>
   )
 }

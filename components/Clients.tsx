@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 
 export default function Clients() {
   const clients = [
@@ -58,9 +59,9 @@ export default function Clients() {
           <p className="text-gray-600 mb-6">
             Join our growing network of satisfied clients worldwide
           </p>
-          <a href="/clients" className="px-10 py-4 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] text-white rounded-lg font-semibold hover:shadow-2xl hover:shadow-[#355FA8]/50 transition-all duration-300 transform hover:scale-105">
+          <Link href="/clients" className="px-10 py-4 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] text-white rounded-lg font-semibold hover:shadow-2xl hover:shadow-[#355FA8]/50 transition-all duration-300 transform hover:scale-105">
             See Our Full Client Portfolio
-          </a>
+          </Link>
         </div>
       </div>
     </section>

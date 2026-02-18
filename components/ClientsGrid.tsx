@@ -1,101 +1,13 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-interface ClientLogo {
-    id: number;
-    loaded: boolean;
-}
+// Add your client logo image numbers here manually
+// Example: [368, 369, 370, 371, 372, 373, 374, 375]
+const CLIENT_LOGO_IDS = [368, 370, 372, 374, 376, 378, 380, 382, 384, 386, 388, 390, 392, 394, 396, 398, 400, 402, 404, 406, 408, 410, 412, 414, 416, 418, 420, 508, 511, 513, 515, 517, 519, 521, 523, 525, 527, 529, 531, 533, 535, 537, 539, 541, 543, 545, 547, 549, 551, 553, 555, 557, 559, 561, 563, 565, 567, 569, 571, 573, 575, 577, 579, 580, 582, 584, 586, 588, 590, 592, 594, 596, 598, 600, 602, 604, 606, 608, 610, 612, 614, 616, 618, 620, 622, 624, 626];
 
 export default function ClientsGrid() {
-    const [logos, setLogos] = useState<ClientLogo[]>([]);
-    const [isLoading, setIsLoading] = useState(true);
-
-    useEffect(() => {
-        const loadedLogos: ClientLogo[] = [];
-        let currentId = 368;
-
-        // Try to load images - we'll preload to check if they exist
-        const preloadImages = async () => {
-            // We'll attempt to load up to 50 images starting from 368
-            for (let i = 0; i < 50; i++) {
-                const imageId = currentId + i;
-                const imagePath = `/clients-grid-imgs/img${imageId}.jpg`;
-
-                try {
-                    // Create an image to test if it loads
-                    const img = new window.Image();
-                    img.src = imagePath;
-
-                    await new Promise((resolve, reject) => {
-                        img.onload = () => {
-                            loadedLogos.push({ id: imageId, loaded: true });
-                            resolve(true);
-                        };
-                        img.onerror = () => {
-                            reject(new Error(`Image not found: ${imageId}`));
-                        };
-
-                        // Set a timeout in case image loading hangs
-                        setTimeout(() => reject(new Error('Image load timeout')), 5000);
-                    }).catch(() => {
-                        // Skip this image if it doesn't load
-                    });
-                } catch (error) {
-                    // Skip this image
-                }
-            }
-
-            setLogos(loadedLogos);
-            setIsLoading(false);
-        };
-
-        preloadImages();
-    }, []);
-
-    if (isLoading) {
-        return (
-            <section className="py-16 px-4 bg-gray-50">
-                <div className="max-w-6xl mx-auto">
-                    {/* Header */}
-                    <div className="mb-16 text-center">
-                        <h2 className="font-heading text-4xl sm:text-5xl font-bold text-[#231F20] mb-4">
-                            Clients Portfolio
-                        </h2>
-                        <div className="w-20 h-1 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] mx-auto mb-6"></div>
-                    </div>
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                        {Array.from({ length: 12 }).map((_, index) => (
-                            <div
-                                key={index}
-                                className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm overflow-hidden"
-                            >
-                                <div className="w-full h-16 rounded skeleton-loading" />
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-        );
-    }
-
-    if (logos.length === 0) {
-        return (
-            <section className="py-16 px-4">
-                <div className="max-w-6xl mx-auto">
-                    {/* Header */}
-                    <div className="mb-16 text-center">
-                        <h2 className="font-heading text-4xl sm:text-5xl font-bold text-[#231F20] mb-4">
-                            Clients Portfolio
-                        </h2>
-                        <div className="w-20 h-1 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] mx-auto mb-6"></div>
-                    </div>
-                    <div className="text-center text-gray-500">No client logos found</div>
-                </div>
-            </section>
-        );
-    }
+    const logos = CLIENT_LOGO_IDS;
 
     return (
         <section className="py-16 px-4 bg-gray-50">
@@ -103,20 +15,19 @@ export default function ClientsGrid() {
                 {/* Header */}
                 <div className="mb-16 text-center">
                     <h2 className="font-heading text-4xl sm:text-5xl font-bold text-[#231F20] mb-4">
-                        Clients Portfolio
+                        Certified & Approved by
                     </h2>
-                    <div className="w-20 h-1 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] mx-auto mb-6"></div>
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                    {logos.map((logo) => (
+                    {logos.map((logoId) => (
                         <div
-                            key={logo.id}
+                            key={logoId}
                             className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                         >
                             <Image
-                                src={`/clients-grid-imgs/img${logo.id}.jpg`}
-                                alt={`Client logo ${logo.id}`}
+                                src={`/clients-grid-imgs/img${logoId}.jpg`}
+                                alt={`Client logo ${logoId}`}
                                 width={120}
                                 height={60}
                                 className="object-contain max-w-full h-auto"
