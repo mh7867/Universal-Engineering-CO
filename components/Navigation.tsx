@@ -38,7 +38,7 @@ export default function Navigation() {
           {/* Desktop Nav */}
           <div className="hidden lg:flex space-x-8">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.label}
                 href={item.href}
                 className="relative cursor-pointer group"
@@ -56,24 +56,24 @@ export default function Navigation() {
                 {item.children && (
                   <div className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2">
                     {item.children.map((child) => (
-                      <a
+                      <Link
                         key={child.label}
                         href={child.href}
                         className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8] transition-colors text-sm"
                       >
                         {child.label}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 )}
-              </a>
+              </Link>
             ))}
           </div>
 
           {/* CTA Button */}
-          <a href="/#contact" className="hidden sm:inline-block px-6 py-2.5 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] text-white rounded-lg font-medium hover:shadow-lg transition-all duration-300">
+          <Link href="/#contact" className="hidden sm:inline-block px-6 py-2.5 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] text-white rounded-lg font-medium hover:shadow-lg transition-all duration-300">
             Get a Quote
-          </a>
+          </Link>
 
           {/* Mobile Menu Button */}
           <button
@@ -119,21 +119,21 @@ export default function Navigation() {
                 {item.children && openMobileDropdown === item.label && (
                   <div className="pl-4 space-y-1 bg-[#EFEFEF] rounded-lg mx-2 my-2 py-2">
                     {item.children.map((child) => (
-                      <a
+                      <Link
                         key={child.label}
                         href={child.href}
                         className="block px-4 py-2 text-[#231F20] hover:text-[#355FA8] text-sm rounded transition-colors"
                       >
                         {child.label}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 )}
               </div>
             ))}
-            <a href="/#contact" className="w-full px-4 py-2 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] text-white rounded-lg font-medium mt-4">
+            <Link href="/#contact" className="w-full px-4 py-2 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] text-white rounded-lg font-medium mt-4">
               Get a Quote
-            </a>
+            </Link>
           </div>
         )}
       </div>
