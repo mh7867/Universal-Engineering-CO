@@ -1,0 +1,1100 @@
+[00:00:05.553] Server  LOG     ✓ Ready in 4.8s
+[00:00:08.659] Server  LOG     ○ Compiling / ...
+[00:00:19.970] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.318] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                <Page params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[00:00:21.318] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:00:21.318] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+              <Page params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[00:00:22.230] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:22.230] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:22.231] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:22.231] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771379834932}
+[00:00:22.231] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771379834939}
+[00:00:34.396] Server  LOG     ○ Compiling /organization-chart ...
+[00:01:14.975] Server  WARN    ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:20.942] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:23.437] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/organizat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="organizati...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function OrganizationChartPage} serverProvidedParams={{...}}>
+                <OrganizationChartPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[00:01:23.437] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:01:23.437] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/organizat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="organizati...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function OrganizationChartPage} serverProvidedParams={{...}}>
+              <OrganizationChartPage params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[00:01:23.901] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:23.901] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/organization-chart","route":"/organization-chart"}
+[00:01:23.901] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/organization-chart","route":"/organization-chart"}
+[00:01:23.901] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/organization-chart color: rgb(120, 120, 120) color: inherit {"dp":"/organization-chart","o":"http://localhost:3000/organization-chart","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771379896930}
+[00:01:23.901] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/organization-chart color: rgb(120, 120, 120) color: inherit {"dp":"/organization-chart","o":"http://localhost:3000/organization-chart","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771379896930}
+[00:04:56.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:58.962] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/organizat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="organizati...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function OrganizationChartPage} serverProvidedParams={{...}}>
+                <OrganizationChartPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[00:04:58.963] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:04:58.963] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/organizat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="organizati...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function OrganizationChartPage} serverProvidedParams={{...}}>
+              <OrganizationChartPage params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[00:05:00.229] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:00.229] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/organization-chart","route":"/organization-chart"}
+[00:05:00.229] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/organization-chart","route":"/organization-chart"}
+[00:05:00.229] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/organization-chart color: rgb(120, 120, 120) color: inherit {"dp":"/organization-chart","o":"http://localhost:3000/organization-chart","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771380112464}
+[00:05:00.229] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/organization-chart color: rgb(120, 120, 120) color: inherit {"dp":"/organization-chart","o":"http://localhost:3000/organization-chart","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771380112465}
+[00:05:39.852] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:40.983] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/organizat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="organizati...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function OrganizationChartPage} serverProvidedParams={{...}}>
+                <OrganizationChartPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[00:05:40.983] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:05:40.983] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/organizat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="organizati...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function OrganizationChartPage} serverProvidedParams={{...}}>
+              <OrganizationChartPage params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[00:05:41.268] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:41.268] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/organization-chart","route":"/organization-chart"}
+[00:05:41.268] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/organization-chart","route":"/organization-chart"}
+[00:05:41.268] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/organization-chart color: rgb(120, 120, 120) color: inherit {"dp":"/organization-chart","o":"http://localhost:3000/organization-chart","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771380154464}
+[00:05:41.268] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/organization-chart color: rgb(120, 120, 120) color: inherit {"dp":"/organization-chart","o":"http://localhost:3000/organization-chart","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771380154466}
+[00:06:53.476] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:54.637] Server  ERROR   ⨯ ReferenceError: dotPattern is not defined
+[00:06:55.898] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:57.315] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/organizat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="organizati...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function OrganizationChartPage} serverProvidedParams={{...}}>
+                <OrganizationChartPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[00:06:57.315] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:06:57.315] Browser ERROR   uncaughtError: ReferenceError: dotPattern is not defined
+[00:06:59.277] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:04.658] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:19.328] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:23.326] Browser ERROR   Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously tries to update the component. Move this work to useEffect instead.
+[00:07:23.891] Server  WARN    ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:07:25.606] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:27.238] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/organizat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="organizati...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function OrganizationChartPage} serverProvidedParams={{...}}>
+                <OrganizationChartPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[00:07:27.238] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:07:27.239] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/organizat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="organizati...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function OrganizationChartPage} serverProvidedParams={{...}}>
+              <OrganizationChartPage params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[00:07:27.757] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:27.758] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/organization-chart","route":"/organization-chart"}
+[00:07:27.758] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/organization-chart","route":"/organization-chart"}
+[00:07:27.758] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/organization-chart color: rgb(120, 120, 120) color: inherit {"dp":"/organization-chart","o":"http://localhost:3000/organization-chart","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771380260720}
+[00:07:27.758] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/organization-chart color: rgb(120, 120, 120) color: inherit {"dp":"/organization-chart","o":"http://localhost:3000/organization-chart","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771380260721}
+[00:10:09.357] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771380422685}
+[00:55:12.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:13.552] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/#company-..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                <Page params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[00:55:13.552] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:55:13.552] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/#company-..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+              <Page params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[00:55:14.425] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:55:14.426] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:55:14.426] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:55:14.426] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#company-history color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#company-history","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383127250}
+[00:55:14.426] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#company-history color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#company-history","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383127252}
+[00:58:12.309] Browser ERROR   ./components/Clients.tsx
+Error:   × Expected '</', got 'jsx text'
+    ╭─[C:\HamzaWork\NextJS\Universal-Engineering-CO\components\Clients.tsx:63:1]
+ 60 │               </p>
+ 61 │               <a href="" className="px-10 py-4 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] text-white rounded-lg font-semibold hover:shadow-2xl hover:shadow-[#355FA8]/50 transition-all duration-300 transform hover:scale-105">
+ 62 │                 See Our Full Client Portfolio
+ 63 │ ╭─▶           </button>
+ 64 │ ╰─▶         </div>
+ 65 │           </div>
+ 66 │         </section>
+ 66 │       )
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/Clients.tsx
+./app/page.tsx
+[00:58:40.229] Server  WARN    ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:58:44.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:45.859] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                <Page params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[00:58:45.859] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:58:45.859] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+              <Page params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[00:58:46.819] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:58:46.819] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:58:46.819] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:58:46.819] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383339670}
+[00:58:46.819] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383339671}
+[00:59:15.131] Server  LOG     ○ Compiling /clients ...
+[00:59:57.652] Server  WARN    ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:00:00.692] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:01.881] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/clients" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="clients/pa...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function ClientsGridPage} serverProvidedParams={{...}}>
+                <ClientsGridPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[01:00:01.881] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[01:00:01.881] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/clients" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="clients/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function ClientsGridPage} serverProvidedParams={{...}}>
+              <ClientsGridPage params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[01:00:01.881] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:00:01.881] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/clients","route":"/clients"}
+[01:00:01.881] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/clients","route":"/clients"}
+[01:00:01.881] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383414585}
+[01:00:01.881] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383414586}
+[01:00:04.631] Server  LOG     ○ Compiling /_not-found ...
+[01:02:47.859] Server  LOG     ○ Compiling /_not-found ...
+[01:04:12.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:13.015] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/clients" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="clients/pa...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function ClientsGridPage} serverProvidedParams={{...}}>
+                <ClientsGridPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[01:04:13.015] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[01:04:13.015] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/clients" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="clients/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function ClientsGridPage} serverProvidedParams={{...}}>
+              <ClientsGridPage params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[01:04:13.018] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:04:13.018] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/clients","route":"/clients"}
+[01:04:13.018] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/clients","route":"/clients"}
+[01:04:13.018] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383666243}
+[01:04:13.018] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383666244}
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img368.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img370.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img372.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img374.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img376.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img378.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img380.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img382.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img384.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img388.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img390.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img392.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img394.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img396.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img398.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img400.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img402.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img404.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img406.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img408.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img410.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img412.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img414.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:18.927] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img416.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:39.743] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383692916}
+[01:04:59.864] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:00.389] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/clients" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="clients/pa...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function ClientsGridPage} serverProvidedParams={{...}}>
+                <ClientsGridPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[01:05:00.389] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[01:05:00.389] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/clients" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="clients/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function ClientsGridPage} serverProvidedParams={{...}}>
+              <ClientsGridPage params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[01:05:00.615] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:05:00.616] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/clients","route":"/clients"}
+[01:05:00.616] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/clients","route":"/clients"}
+[01:05:00.616] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383713725}
+[01:05:00.616] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383713726}
+[01:05:04.803] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img368.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.803] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img370.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.803] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img372.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.803] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img374.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.803] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img376.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.803] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img378.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.803] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img380.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.803] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img382.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img384.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img388.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img390.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img392.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img394.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img396.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img398.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img400.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img402.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img404.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img406.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img408.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img410.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img412.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img414.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:04.804] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img416.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:07:34.308] Server  LOG     ○ Compiling /_not-found ...
+[01:09:37.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:38.696] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/clients" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="clients/pa...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function ClientsGridPage} serverProvidedParams={{...}}>
+                <ClientsGridPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <Navigation>
+                      <nav className="fixed top-...">
+                        <div className="max-w-7xl ...">
+                          <div className="flex justi...">
+                            <LinkComponent>
+                            <div className="hidden lg:...">
+                              <a>
+>                             <a
+>                               href="/#about"
+>                               className="relative cursor-pointer group"
+>                               onMouseEnter={function onMouseEnter}
+>                               onMouseLeave={function onMouseLeave}
+>                             >
+                                <button>
+                                <div className="absolute l...">
+>                                 <a
+>                                   href="/#mission-vision"
+>                                   className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#355FA8..."
+>                                 >
+                                  ...
+                              ...
+                            ...
+                    ...
+            ...
+          ...
+
+[01:09:38.696] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[01:09:38.696] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/clients" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="clients/pa...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function ClientsGridPage} serverProvidedParams={{...}}>
+              <ClientsGridPage params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <Navigation>
+                    <nav className="fixed top-...">
+                      <div className="max-w-7xl ...">
+                        <div className="flex justi...">
+                          <LinkComponent>
+                          <div className="hidden lg:...">
+                            <a>
+                            <a href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
+                              <button>
++                             <div
++                               className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible..."
++                             >
+                            ...
+                          ...
+                  ...
+          ...
+        ...
+
+[01:09:38.696] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:09:38.696] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/clients","route":"/clients"}
+[01:09:38.696] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/clients","route":"/clients"}
+[01:09:38.696] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383991715}
+[01:09:38.696] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771383991716}
+[01:09:41.978] Server  LOG     ○ Compiling /_not-found ...
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img370.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img372.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img374.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img376.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img378.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img380.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img382.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img384.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img388.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img390.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img392.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img394.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img396.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img398.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img400.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img402.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img404.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img406.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img408.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img410.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img412.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img414.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:09:48.910] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img416.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:10:37.559] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img368.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

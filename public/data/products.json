@@ -1,0 +1,304 @@
+[
+    {
+        "id": 2,
+        "name": "Medium Voltage Switchgear (MV)",
+        "slug": "medium-voltage-switchgear",
+        "shortDescription": "Manages, switches, and safeguards medium-voltage electrical networks for reliable power distribution.",
+        "image": "/products-images/mv-image.png",
+        "thumbnail": "/products-images/mv-image.png",
+        "specifications": {
+            "ratedVoltage": "3.3 kV to 36 kV",
+            "ratedCurrent": "630 A to 3150 A",
+            "shortCircuitRating": "16–40 kA (1s), depending on system",
+            "insulationType": "Air-insulated (AIS) or gas-insulated (GIS)",
+            "frequency": "50/60 Hz",
+            "protectionDevices": "Vacuum circuit breakers (VCB), relays, CTs, PTs",
+            "busbarSystem": "Fully insulated copper busbars",
+            "safetyFeatures": "Arc-proof construction (optional), interlocking mechanisms",
+            "enclosureProtection": "IP41 / IP54 (application-based)"
+        },
+        "applications": [
+            "Primary and secondary distribution in industrial plants",
+            "Utility substations and grid distribution networks",
+            "Commercial & residential building power distribution",
+            "Oil & gas, mining, water treatment, and infrastructure projects",
+            "Feeder, transformer, and capacitor bank switching"
+        ],
+        "compliance": [
+            "IEC 62271-200 – AC metal-enclosed switchgear",
+            "IEC 62271-100 – High-voltage circuit breakers",
+            "IEC 60044 / IEC 61869 – Instrument transformers",
+            "IEC 60529 – IP protection levels",
+            "ISO 9001 – Manufacturing quality compliance"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Low Voltage Switchgear (LV)",
+        "slug": "low-voltage-switchgear",
+        "shortDescription": "Protects and controls low-voltage electrical circuits in power distribution systems.",
+        "image": "/products-images/lv-image.png",
+        "thumbnail": "/products-images/lv-image.png",
+        "specifications": {
+            "ratedVoltage": "Up to 1000 V AC, 3-phase",
+            "ratedCurrent": "Typically 100 A to 6300 A",
+            "shortCircuitWithstand": "25–100 kA (1s) depending on design",
+            "frequency": "50/60 Hz",
+            "ingressProtection": "IP31 / IP42 / IP54 (as required)",
+            "busbarSystem": "Copper or aluminum, fully insulated or sleeved",
+            "construction": "Modular, floor-mounted, compartmentalized (Form 2 / Form 3 / Form 4)",
+            "components": "ACBs, MCCBs, MCBs, contactors, relays, metering & protection devices"
+        },
+        "applications": [
+            "Main distribution in commercial & industrial facilities",
+            "Power distribution for factories, buildings, data centers, hospitals, and utilities",
+            "Feeder and sub-feeder control for equipment and lighting loads",
+            "Integration with generators, UPS systems, and automation networks"
+        ],
+        "compliance": [
+            "IEC 61439-1/2 – Low-voltage switchgear & controlgear assemblies",
+            "IEC 60947 series – Protection, switching & control devices",
+            "IEC 60529 – IP protection levels",
+            "ISO 9001 – Quality management (panel manufacturing)",
+            "Local electrical authority regulations (country-specific)"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Motor Control Center (MCC)",
+        "slug": "motor-control-center",
+        "shortDescription": "Centralized unit for controlling, protecting, and monitoring multiple electric motors.",
+        "image": "/products-images/mcc-image.png",
+        "thumbnail": "/products-images/thumbnails/mcc-image.jpg",
+        "specifications": {
+            "ratedVoltage": "Up to 690 V AC",
+            "ratedCurrent": "100 A to 4000 A",
+            "shortCircuitRating": "25–65 kA (1s)",
+            "configuration": "Fixed or withdrawable modules",
+            "components": "Starters (DOL, Star–Delta, Soft Starters), VFDs, MCCBs, contactors, overload relays",
+            "busbarSystem": "Copper/Aluminum, insulated or sleeved",
+            "controlVoltage": "24V / 110V / 220V AC or DC",
+            "enclosureProtection": "IP31 / IP42 / IP54"
+        },
+        "applications": [
+            "Industrial motor control (pumps, fans, compressors, conveyors)",
+            "Manufacturing plants, HVAC systems, utilities, and water treatment facilities",
+            "Process plants: food, chemical, petrochemical, cement, steel",
+            "Centralized motor protection, monitoring, and power distribution"
+        ],
+        "compliance": [
+            "IEC 61439-1/2 – Low-voltage switchgear assemblies",
+            "IEC 60947 series – Motor control & protection components",
+            "IEC 60529 – IP protection",
+            "ISO 9001 – Quality management standard"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Power Factor Improvement Plant (PFI)",
+        "slug": "power-factor-improvement",
+        "shortDescription": "Enhances system efficiency by correcting power factor using capacitor banks.",
+        "image": "/products-images/pfi-image.png",
+        "thumbnail": "/products-images/thumbnails/pfi-image.jpg",
+        "specifications": {
+            "ratedVoltage": "400–690 V AC",
+            "reactivePowerCapacity": "50 kVAR to 2000 kVAR (modular steps)",
+            "switchingType": "Automatic via contactors or thyristor switching (TSC)",
+            "capacitorType": "Heavy-duty, low-loss, self-healing capacitors",
+            "detuningReactors": "5.67% / 7% / 14% (for harmonic-rich environments)",
+            "protection": "MCCBs, MCBs, fuses, thermal protection, discharge resistors",
+            "enclosureProtection": "IP31 / IP42 / IP54"
+        },
+        "applications": [
+            "Industrial plants with inductive loads (motors, welders, compressors)",
+            "Commercial buildings to reduce utility penalties",
+            "Distribution networks requiring improved power quality",
+            "HVAC, pumping stations, textile, steel, cement, and manufacturing facilities"
+        ],
+        "compliance": [
+            "IEC 61921 – Power capacitor banks",
+            "IEC 60831-1/2 – Low-voltage shunt capacitors",
+            "IEC 61439-1/2 – LV assemblies",
+            "IEC 60529 – IP protection",
+            "IEEE 519 – Harmonic limits (related to detuned PFI systems)"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Synchronizing Panel",
+        "slug": "synchronizing-panel",
+        "image": "/products-images/sync-image.png",
+        "thumbnail": "/products-images/thumbnails/sync-image.jpg",
+        "shortDescription": "Enables safe synchronization and load sharing between multiple generators or power sources.",
+        "specifications": {
+            "ratedVoltage": "415 V AC (LV) or as per system requirement",
+            "ratedCurrent": "100 A – 2000 A (depending on generator/load)",
+            "frequencyRange": "45–65 Hz",
+            "synchronizationMethod": "Automatic (microprocessor/PLC based) or manual",
+            "controlFeatures": "Phase sequence detection, voltage & frequency matching, load sharing, breaker interlocking",
+            "protectionFeatures": "Overvoltage, undervoltage, overcurrent, reverse power, and out-of-phase protection",
+            "enclosureProtection": "IP31 / IP42 / IP54"
+        },
+        "applications": [
+            "Parallel operation of multiple generators",
+            "Synchronization of generator with utility/grid supply",
+            "Load sharing in power plants, industries, hospitals, and critical facilities",
+            "Integration with ATS/AMF panels for uninterrupted power supply"
+        ],
+        "compliance": [
+            "IEC 60947-4-1 – Controlgear & motor starters",
+            "IEC 61439-1/2 – Switchgear and controlgear assemblies",
+            "IEEE 1547 – Interconnection and synchronization of distributed resources",
+            "ISO 9001 – Quality management in manufacturing"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "PLC Control Industrial Panel",
+        "slug": "plc-control-panel",
+        "image": "/products-images/plc-image.jpg",
+        "thumbnail": "/products-images/thumbnails/plc-image.jpg",
+        "shortDescription": "Automates and controls industrial processes using programmable logic controllers.",
+        "specifications": {
+            "controlVoltage": "24V / 110V / 230V AC/DC",
+            "plcType": "Modular or compact, suitable for industrial automation",
+            "ioModules": "Digital, analog, and special function modules",
+            "communicationProtocols": "Modbus, Profibus, Ethernet/IP, Profinet (as required)",
+            "displayHmi": "Touchscreen or operator panel for monitoring and control",
+            "protection": "MCBs, fuses, surge protection, isolation relays",
+            "enclosureProtection": "IP31 / IP42 / IP54 (floor-mounted or wall-mounted)"
+        },
+        "applications": [
+            "Automation of industrial processes: assembly lines, packaging, material handling",
+            "Monitoring and control of motors, pumps, conveyors, and HVAC systems",
+            "Integration with SCADA, DCS, and industrial IoT systems",
+            "Process industries: chemical, pharmaceutical, food & beverage, textile, and steel"
+        ],
+        "compliance": [
+            "IEC 61131-2 – PLC hardware requirements and programming standards",
+            "IEC 61439-1/2 – Low-voltage switchgear and control panels",
+            "IEC 60529 – IP protection for enclosures",
+            "ISO 9001 – Quality management in manufacturing"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "ATS / AMF Panel",
+        "slug": "ats-amf-panel",
+        "image": "/products-images/ats-image.jpg",
+        "thumbnail": "/products-images/thumbnails/ats-image.jpg",
+        "shortDescription": "Automatically switches between mains and generator supply to ensure uninterrupted power.",
+        "specifications": {
+            "ratedVoltage": "230/400 V AC, 3-phase",
+            "ratedCurrent": "25 A – 4000 A (depending on load)",
+            "operatingModes": "Automatic (AMF) and Manual (ATS)",
+            "transferTime": "Typically < 5 seconds for automatic switching",
+            "controlFeatures": "Engine start/stop, mains failure detection, load transfer, fault alarm",
+            "protectionFeatures": "Overvoltage, undervoltage, overcurrent, short circuit, phase failure",
+            "communication": "Optional integration with PLC or SCADA",
+            "enclosureProtection": "IP31 / IP42 / IP54"
+        },
+        "applications": [
+            "Backup power management for industries, commercial buildings, and hospitals",
+            "Automatic transfer between mains and generator supply",
+            "Ensuring uninterrupted power for critical systems and processes",
+            "Integration with diesel, gas, or hybrid generators"
+        ],
+        "compliance": [
+            "IEC 60947-6-1 – Automatic transfer switching",
+            "IEC 61439-1/2 – Low-voltage switchgear and controlgear assemblies",
+            "IEC 60529 – IP protection levels",
+            "ISO 9001 – Manufacturing quality standards"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Power & Lighting Distribution Boards",
+        "slug": "power-lighting-distribution-boards",
+        "image": "/products-images/pld-image.jpg",
+        "thumbnail": "/products-images/thumbnails/pld-image.jpg",
+        "shortDescription": "Distribute and control electrical power for lighting and utility circuits.",
+        "specifications": {
+            "ratedVoltage": "230/400 V AC, 3-phase",
+            "ratedCurrent": "63 A – 4000 A (depending on design)",
+            "incomingProtection": "MCCB / ACB / Fuse",
+            "outgoingProtection": "MCBs, MCCBs, or RCBOs for feeders",
+            "busbarSystem": "Copper/aluminum, insulated or sleeved",
+            "panelConfiguration": "Single/double-door, floor-mounted or wall-mounted",
+            "enclosureProtection": "IP31 / IP42 / IP54",
+            "accessories": "Metering, indication lamps, surge protection, earthing"
+        },
+        "applications": [
+            "Distribution of electrical power to lighting and utility loads in commercial, industrial, and residential buildings",
+            "Centralized control of lighting circuits and sub-feeders",
+            "Integration with generator, UPS, and renewable energy sources",
+            "Power management for offices, factories, hospitals, and data centers"
+        ],
+        "compliance": [
+            "IEC 61439-1/2 – Low-voltage switchgear & controlgear assemblies",
+            "IEC 60947-2 – Circuit breakers",
+            "IEC 60529 – IP protection levels",
+            "ISO 9001 – Manufacturing quality standards"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Cable Tray & Cable Ladder",
+        "slug": "cable-tray-ladder",
+        "image": "/products-images/ctm-image.png",
+        "thumbnail": "/products-images/thumbnails/cable-image.jpg",
+        "shortDescription": "Provide structured pathways for supporting and routing electrical cables.",
+        "specifications": {
+            "material": "Hot-dip galvanized steel, stainless steel, aluminum, or FRP",
+            "finish": "Powder coated, painted, or galvanized",
+            "width": "50 mm – 1200 mm (depending on application)",
+            "heightDepth": "25 mm – 300 mm",
+            "loadRating": "Light, medium, or heavy-duty (as per IEC/IS standards)",
+            "types": "Ladder, perforated tray, solid bottom tray, wire mesh tray",
+            "installation": "Wall-mounted, floor-supported, or suspended from ceiling",
+            "accessories": "Bends, tees, reducers, couplers, covers, clamps"
+        },
+        "applications": [
+            "Structured routing and support of electrical cables in industrial, commercial, and infrastructure projects",
+            "Power distribution, control, and instrumentation cable management",
+            "Cable organization in plants, substations, airports, hospitals, and commercial complexes",
+            "Ensures safety, ventilation, and easy maintenance of electrical systems"
+        ],
+        "compliance": [
+            "IEC 61537 – Cable tray and ladder systems for electrical installations",
+            "IS 3475 / IS 8623 – Indian standards for cable trays",
+            "NEMA VE 1 – Metal cable tray standards (optional)",
+            "ISO 9001 – Quality management for manufacturing"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Bus Tie Duct",
+        "slug": "bus-tie-duct",
+        "image": "/products-images/btd-image.png",
+        "thumbnail": "/products-images/thumbnails/bus-tie-image.jpg",
+        "shortDescription": "Facilitates high-capacity power transfer and interconnection between switchboards or busbar systems.",
+        "specifications": {
+            "voltageRating": "Up to 11 kV (typical for MV), LV versions up to 1 kV",
+            "currentRating": "100 A – 5000 A (depending on system)",
+            "busbarMaterial": "Copper or aluminum, fully insulated or bare with protection",
+            "insulation": "PVC, epoxy-coated, or laminated insulation",
+            "shortCircuitRating": "25 kA – 50 kA (1s)",
+            "enclosure": "Sheet metal or modular duct, floor/wall/suspended mounting",
+            "protection": "Arc-proof design optional, with covers and barriers",
+            "configuration": "Single, double, or multi-tier busbar arrangement"
+        },
+        "applications": [
+            "Interconnection between switchgear panels, MCCs, or distribution boards",
+            "Transfer of high-capacity power between LV or MV panels",
+            "Power distribution in industrial plants, commercial buildings, and substations",
+            "Reduces installation complexity and ensures safe, organized busbar routing"
+        ],
+        "compliance": [
+            "IEC 61439-1/2 – Low-voltage switchgear and controlgear assemblies",
+            "IEC 60439-2 – Busbar trunking systems (legacy standard)",
+            "IEC 60529 – IP protection for enclosures",
+            "ISO 9001 – Quality management in manufacturing"
+        ]
+    }
+]
