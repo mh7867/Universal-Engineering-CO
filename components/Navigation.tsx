@@ -18,6 +18,7 @@ export default function Navigation() {
         { label: 'Mission & Vision', href: '/#mission-vision' },
         { label: 'Company History', href: '/#company-history' },
         { label: 'Certified and Approved by', href: '/#clients' },
+        { label: 'Clients Profolio', href: '/clients' },
         { label: 'Organizational Chart', href: '/organization-chart' },
       ],
     },
