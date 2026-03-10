@@ -19,9 +19,6 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#231F20]/90 via-[#231F20]/70 to-transparent"></div>
       </div>
 
-      {/* Glow Orbs */}
-      <div className="absolute top-20 left-10 w-96 h-96 bg-gradient-to-br from-[#355FA8] to-[#1e3a5f] rounded-full glow-orb opacity-20"></div>
-      <div className="absolute bottom-0 right-20 w-72 h-72 bg-gradient-to-tl from-[#355FA8]/40 to-transparent rounded-full glow-orb-slow opacity-30"></div>
 
       {/* Content */}
       <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">

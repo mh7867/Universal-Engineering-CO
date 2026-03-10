@@ -1,6 +1,6 @@
 'use client'
 
-import { MapPin, Mail, Phone } from 'lucide-react'
+import { MapPin, Mail, Phone, Facebook, Linkedin } from 'lucide-react'
 import Link from 'next/link'
 import products from '@/public/data/products.json'
 
@@ -95,16 +95,15 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex gap-6">
               {[
-                { name: 'LinkedIn', icon: '🔗' },
-                { name: 'Twitter', icon: '𝕏' },
-                { name: 'Facebook', icon: 'f' },
-                { name: 'Instagram', icon: '📷' },
+                { name: 'LinkedIn', icon: <Linkedin className="w-5 h-5" />, url: 'https://www.linkedin.com/company/universal-engineering-co/' },
+                { name: 'Facebook', icon: <Facebook className="w-5 h-5" />, url: 'https://www.facebook.com/share/1G2VmQW4d1/?mibextid=wwXIfr' },
               ].map((social) => (
                 <a
                   key={social.name}
-                  href="#"
+                  href={social.url}
                   className="w-10 h-10 rounded-lg border border-white/30 flex items-center justify-center text-white/70 hover:border-[#355FA8] hover:bg-[#355FA8]/20 hover:text-[#355FA8] transition-all duration-300"
                   title={social.name}
+                  target='_blank'
                 >
                   {social.icon}
                 </a>

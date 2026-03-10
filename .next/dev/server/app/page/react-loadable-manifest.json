@@ -1,0 +1,10 @@
+{
+  "[project]/components/GlobeMap.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/GlobeMap.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_714cba15._.js",
+      "static/chunks/components_GlobeMap_tsx_cebf516c._.js",
+      "static/chunks/components_GlobeMap_tsx_ec2440e6._.js"
+    ]
+  }
+}

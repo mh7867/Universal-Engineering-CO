@@ -4,6 +4,7 @@ import { Michroma, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import WhatsAppFloat from "@/components/WhatsAppFloat"
 import './globals.css'
 
 const michroma = Michroma({ weight: '400', subsets: ["latin"] });
@@ -41,6 +42,7 @@ export default function RootLayout({
       <body className={`font-sans antialiased`}>
         <Navigation />
         {children}
+        <WhatsAppFloat />
         <Footer />
         <Analytics />
       </body>
