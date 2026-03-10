@@ -65,7 +65,7 @@ function Navigation() {
                     href: '/#clients'
                 },
                 {
-                    label: 'Clients Profolio',
+                    label: 'Clients Protfolio',
                     href: '/clients'
                 },
                 {
