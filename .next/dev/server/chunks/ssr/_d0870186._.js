@@ -11,87 +11,85 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 'use client';
 ;
 ;
-// Add your client logo image numbers here manually
-// Example: [368, 369, 370, 371, 372, 373, 374, 375]
 const CLIENT_LOGO_IDS = [
-    368,
-    370,
-    372,
-    374,
-    376,
-    378,
-    380,
-    382,
-    384,
-    386,
-    388,
-    390,
-    392,
-    394,
-    396,
-    398,
-    400,
-    402,
-    404,
-    406,
-    408,
-    410,
-    412,
-    414,
-    416,
-    418,
-    420,
-    508,
-    511,
-    513,
-    515,
-    517,
-    519,
-    521,
-    523,
-    525,
-    527,
-    529,
-    531,
-    533,
-    535,
-    537,
-    539,
-    541,
-    543,
-    545,
-    547,
-    549,
-    551,
-    553,
-    555,
-    557,
-    576,
-    579,
-    580,
-    582,
-    584,
-    586,
-    588,
-    590,
-    592,
-    594,
-    596,
-    598,
-    600,
-    602,
-    604,
-    606,
-    608,
-    610,
-    612,
-    614,
-    616,
-    618,
-    620,
-    622,
-    624,
-    626
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78
 ];
 function ClientsGrid() {
     const logos = CLIENT_LOGO_IDS;
@@ -108,20 +106,20 @@ function ClientsGrid() {
                             children: "Clients Protfolio"
                         }, void 0, false, {
                             fileName: "[project]/components/ClientsGrid.tsx",
-                            lineNumber: 17,
+                            lineNumber: 16,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-20 h-1 bg-gradient-to-r from-[#355FA8] to-[#1e3a5f] mx-auto mb-6"
                         }, void 0, false, {
                             fileName: "[project]/components/ClientsGrid.tsx",
-                            lineNumber: 20,
+                            lineNumber: 19,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ClientsGrid.tsx",
-                    lineNumber: 16,
+                    lineNumber: 15,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -129,7 +127,7 @@ function ClientsGrid() {
                     children: logos.map((logoId)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center justify-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: `/clients-grid-imgs/img${logoId}.jpg`,
+                                src: `/clients-grid-imgs/img${logoId}.svg`,
                                 alt: `Client logo ${logoId}`,
                                 width: 120,
                                 height: 60,
@@ -137,17 +135,17 @@ function ClientsGrid() {
                                 priority: false
                             }, void 0, false, {
                                 fileName: "[project]/components/ClientsGrid.tsx",
-                                lineNumber: 30,
+                                lineNumber: 29,
                                 columnNumber: 29
                             }, this)
                         }, logoId, false, {
                             fileName: "[project]/components/ClientsGrid.tsx",
-                            lineNumber: 26,
+                            lineNumber: 25,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/ClientsGrid.tsx",
-                    lineNumber: 24,
+                    lineNumber: 23,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -158,18 +156,18 @@ function ClientsGrid() {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ClientsGrid.tsx",
-                    lineNumber: 42,
+                    lineNumber: 41,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ClientsGrid.tsx",
-            lineNumber: 14,
+            lineNumber: 13,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ClientsGrid.tsx",
-        lineNumber: 13,
+        lineNumber: 12,
         columnNumber: 9
     }, this);
 }

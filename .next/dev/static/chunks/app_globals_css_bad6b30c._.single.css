@@ -2440,17 +2440,6 @@
     }
   }
 
-  .from-\[\#355FA8\]\/40 {
-    --tw-gradient-from: #355fa866;
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
-
-  @supports (color: lab(0% 0 0)) {
-    .from-\[\#355FA8\]\/40 {
-      --tw-gradient-from: lab(40.196% 4.33271 -44.4522 / .4);
-    }
-  }
-
   .from-\[\#355FA8\]\/75 {
     --tw-gradient-from: #355fa8bf;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -3174,16 +3163,8 @@
     opacity: .15;
   }
 
-  .opacity-20 {
-    opacity: .2;
-  }
-
   .opacity-25 {
     opacity: .25;
-  }
-
-  .opacity-30 {
-    opacity: .3;
   }
 
   .opacity-40 {

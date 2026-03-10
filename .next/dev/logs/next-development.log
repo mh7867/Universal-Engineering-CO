@@ -1,7 +1,7 @@
-[00:00:03.304] Server  LOG     ✓ Ready in 2.3s
-[00:00:14.249] Server  LOG     ○ Compiling / ...
-[00:00:22.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:22.311] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:10.223] Server  LOG     ✓ Ready in 6.3s
+[00:13:41.454] Server  LOG     ○ Compiling / ...
+[00:13:49.083] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:51.959] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <a> a 
 
   ...
@@ -52,9 +52,9 @@ This will cause a hydration error.%s <a> a
                     ...
           ...
 
-[00:00:22.314] Browser ERROR   <%s> cannot contain a nested %s.
+[00:13:51.959] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. a <a>
-[00:00:22.891] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:13:51.959] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -97,750 +97,87 @@ https://react.dev/link/hydration-mismatch
                   ...
         ...
 
-[00:00:23.411] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:23.411] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:23.412] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:23.412] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773141315797}
-[00:00:23.412] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773141315798}
-[00:00:32.803] Server  LOG     ✓ Finished writing to filesystem cache in 11.6s
-[00:02:11.427] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773141423510}
-[00:02:11.427] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img368.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.427] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img370.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.427] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img372.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.427] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img374.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.427] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img378.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img380.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img382.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img376.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img384.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img390.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img388.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img392.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img394.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img396.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img398.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img402.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img404.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img406.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img408.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img410.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img412.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img400.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img414.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img416.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img418.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img420.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img508.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img511.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img513.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.428] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img517.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img515.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img519.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img521.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img525.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img523.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img527.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img529.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img531.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img537.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img533.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img535.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img539.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img541.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img543.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img545.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img549.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img551.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img553.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img557.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img547.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:11.429] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img555.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:14.325] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img576.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:14.325] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img579.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:14.325] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img580.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:14.325] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img582.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:17.335] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img584.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:17.335] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img586.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:17.335] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img588.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:17.335] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img590.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:17.721] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img592.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:17.721] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img594.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:17.721] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img596.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:17.721] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img598.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:18.010] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img600.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:18.010] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img602.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:18.010] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img604.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:18.010] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img606.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:19.673] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img608.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:19.674] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img612.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:20.190] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img610.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:20.190] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img614.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:20.787] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img618.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:20.787] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img616.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:20.787] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img620.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:20.787] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img622.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:20.787] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img624.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:20.787] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img626.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:41.133] Server  LOG     ○ Compiling /organization-chart ...
-[00:05:05.919] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:06.447] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <HTTPAccessFallbackErrorBoundary pathname="/clients" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-      <RedirectBoundary>
-        <RedirectErrorBoundary router={{...}}>
-          <Head>
-          <__next_root_layout_boundary__>
-            <SegmentViewNode type="layout" pagePath="layout.tsx">
-              <SegmentTrieNode>
-              <link>
-              <script>
-              <script>
-              <RootLayout>
-                <html lang="en">
-                  <body className="font-sans ...">
-                    <Navigation>
-                      <nav className="fixed top-...">
-                        <div className="max-w-7xl ...">
-                          <div className="flex justi...">
-                            <LinkComponent>
-                            <div className="hidden lg:...">
-                              <LinkComponent>
-                              <LinkComponent href="/#about" className="relative c..." ...>
->                               <a
->                                 className="relative cursor-pointer group"
->                                 onMouseLeave={function onMouseLeave}
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/#about"
->                               >
-                                  <button>
-                                  <div className="absolute l...">
-                                    <LinkComponent href="/#mission-..." className="block px-4...">
->                                     <a
->                                       className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#35..."
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/#mission-vision"
->                                     >
-                                    ...
-                              ...
-                            ...
-                    ...
-          ...
-
-[00:05:06.447] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:05:06.447] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <Head>
-        <__next_root_layout_boundary__>
-          <SegmentViewNode type="layout" pagePath="layout.tsx">
-            <SegmentTrieNode>
-            <link>
-            <script>
-            <script>
-            <RootLayout>
-              <html lang="en">
-                <body className="font-sans ...">
-                  <Navigation>
-                    <nav className="fixed top-...">
-                      <div className="max-w-7xl ...">
-                        <div className="flex justi...">
-                          <LinkComponent>
-                          <div className="hidden lg:...">
-                            <LinkComponent>
-                            <LinkComponent href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
-                              <a className="relative c..." onMouseLeave={function onMouseLeave} ref={function} ...>
-                                <button>
-+                               <div
-+                                 className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisib..."
-+                               >
-                            ...
-                          ...
-                  ...
-        ...
-
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img368.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img370.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img372.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img374.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img376.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img378.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img380.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img382.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img384.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img388.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img390.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img392.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img394.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.447] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img396.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img398.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img400.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img402.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img404.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img406.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img408.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img410.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img412.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img414.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img416.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img418.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img420.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img508.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img511.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img513.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img515.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img517.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img519.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img521.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img523.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img525.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img527.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img529.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img531.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img533.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img535.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img537.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img539.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.448] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img541.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.449] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img543.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.449] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img545.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.449] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img547.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.449] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img549.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.449] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img551.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.449] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img553.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.449] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img555.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.449] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img557.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:06.449] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:05:06.449] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/clients","route":"/clients"}
-[00:05:06.449] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/clients","route":"/clients"}
-[00:05:06.449] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773141599107}
-[00:05:06.449] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773141599107}
-[00:05:13.816] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#clients color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773141606231}
-[00:05:38.651] Server  LOG     ✓ Finished writing to filesystem cache in 20.9s
-[00:06:15.567] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/organization-chart color: rgb(120, 120, 120) color: inherit {"dp":"/organization-chart","o":"http://localhost:3000/organization-chart","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773141668006}
-[00:11:01.184] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773141953824}
-[00:12:44.473] Server  LOG     ✓ Compiled in 1731ms
-[00:13:23.888] Server  ERROR   ⨯ ReferenceError: WhatsAppFloat is not defined
-[00:13:24.404] Server  ERROR   ⨯ ReferenceError: WhatsAppFloat is not defined
-[00:13:25.408] Server  ERROR   ⨯ ReferenceError: WhatsAppFloat is not defined
-[00:13:26.372] Browser ERROR   uncaughtError: ReferenceError: WhatsAppFloat is not defined
-[00:13:29.799] Server  LOG     ✓ Compiled in 587ms
-[00:13:30.538] Server  ERROR   ⨯ ReferenceError: WhatsAppFloat is not defined
-[00:13:32.155] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:32.155] Browser ERROR   uncaughtError: ReferenceError: WhatsAppFloat is not defined
-[00:13:42.422] Server  LOG     ✓ Compiled in 553ms
-[00:13:42.857] Server  ERROR   ⨯ ReferenceError: WhatsAppFloat is not defined
-[00:13:45.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:45.984] Browser ERROR   uncaughtError: ReferenceError: WhatsAppFloat is not defined
-[00:13:51.598] Server  LOG     ✓ Compiled in 8.3s
-[00:13:52.272] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:58.411] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} forbidden={undefined} ...>
-      <RedirectBoundary>
-        <RedirectErrorBoundary router={{...}}>
-          <Head>
-          <__next_root_layout_boundary__>
-            <SegmentViewNode type="layout" pagePath="layout.tsx">
-              <SegmentTrieNode>
-              <link>
-              <script>
-              <script>
-              <RootLayout>
-                <html lang="en">
-                  <body className="font-sans ...">
-                    <Navigation>
-                      <nav className="fixed top-...">
-                        <div className="max-w-7xl ...">
-                          <div className="flex justi...">
-                            <LinkComponent>
-                            <div className="hidden lg:...">
-                              <LinkComponent>
-                              <LinkComponent href="/#about" className="relative c..." ...>
->                               <a
->                                 className="relative cursor-pointer group"
->                                 onMouseLeave={function onMouseLeave}
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/#about"
->                               >
-                                  <button>
-                                  <div className="absolute l...">
-                                    <LinkComponent href="/#mission-..." className="block px-4...">
->                                     <a
->                                       className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#35..."
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/#mission-vision"
->                                     >
-                                    ...
-                              ...
-                            ...
-                    ...
-          ...
-
-[00:13:58.411] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:13:58.411] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <Head>
-        <__next_root_layout_boundary__>
-          <SegmentViewNode type="layout" pagePath="layout.tsx">
-            <SegmentTrieNode>
-            <link>
-            <script>
-            <script>
-            <RootLayout>
-              <html lang="en">
-                <body className="font-sans ...">
-                  <Navigation>
-                    <nav className="fixed top-...">
-                      <div className="max-w-7xl ...">
-                        <div className="flex justi...">
-                          <LinkComponent>
-                          <div className="hidden lg:...">
-                            <LinkComponent>
-                            <LinkComponent href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
-                              <a className="relative c..." onMouseLeave={function onMouseLeave} ref={function} ...>
-                                <button>
-+                               <div
-+                                 className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisib..."
-+                               >
-                            ...
-                          ...
-                  ...
-        ...
-
-[00:13:58.411] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:13:58.411] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:13:58.411] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:13:58.411] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773142125783}
-[00:13:58.411] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773142125784}
-[00:14:06.321] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:06.823] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} forbidden={undefined} ...>
-      <RedirectBoundary>
-        <RedirectErrorBoundary router={{...}}>
-          <Head>
-          <__next_root_layout_boundary__>
-            <SegmentViewNode type="layout" pagePath="layout.tsx">
-              <SegmentTrieNode>
-              <link>
-              <script>
-              <script>
-              <RootLayout>
-                <html lang="en">
-                  <body className="font-sans ...">
-                    <Navigation>
-                      <nav className="fixed top-...">
-                        <div className="max-w-7xl ...">
-                          <div className="flex justi...">
-                            <LinkComponent>
-                            <div className="hidden lg:...">
-                              <LinkComponent>
-                              <LinkComponent href="/#about" className="relative c..." ...>
->                               <a
->                                 className="relative cursor-pointer group"
->                                 onMouseLeave={function onMouseLeave}
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/#about"
->                               >
-                                  <button>
-                                  <div className="absolute l...">
-                                    <LinkComponent href="/#mission-..." className="block px-4...">
->                                     <a
->                                       className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#35..."
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/#mission-vision"
->                                     >
-                                    ...
-                              ...
-                            ...
-                    ...
-          ...
-
-[00:14:06.823] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:14:06.823] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <Head>
-        <__next_root_layout_boundary__>
-          <SegmentViewNode type="layout" pagePath="layout.tsx">
-            <SegmentTrieNode>
-            <link>
-            <script>
-            <script>
-            <RootLayout>
-              <html lang="en">
-                <body className="font-sans ...">
-                  <Navigation>
-                    <nav className="fixed top-...">
-                      <div className="max-w-7xl ...">
-                        <div className="flex justi...">
-                          <LinkComponent>
-                          <div className="hidden lg:...">
-                            <LinkComponent>
-                            <LinkComponent href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
-                              <a className="relative c..." onMouseLeave={function onMouseLeave} ref={function} ...>
-                                <button>
-+                               <div
-+                                 className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisib..."
-+                               >
-                            ...
-                          ...
-                  ...
-        ...
-
-[00:14:19.052] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:19.052] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:14:19.052] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:14:19.052] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773142139680}
-[00:14:19.052] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773142139681}
-[00:14:19.774] Server  LOG     ✓ Finished filesystem cache database compaction in 14.7s
-[00:15:10.290] Server  LOG     ✓ Compiled in 931ms
-[00:19:04.210] Server  LOG     ✓ Compiled in 4.2s
-[00:19:13.908] Server  LOG     ✓ Compiled in 439ms
-[00:19:16.236] Server  LOG     ✓ Compiled in 287ms
-[00:19:19.903] Server  LOG     ✓ Compiled in 324ms
-[00:19:22.021] Server  LOG     ✓ Compiled in 461ms
-[00:19:23.563] Server  LOG     ✓ Compiled in 615ms
-[00:21:48.953] Server  LOG     ✓ Compiled in 316ms
-[00:21:52.521] Server  LOG     ✓ Compiled in 388ms
-[00:21:55.401] Server  LOG     ✓ Compiled in 176ms
-[00:22:01.200] Server  LOG     ✓ Compiled in 263ms
-[00:22:57.180] Server  LOG     ✓ Compiled in 5.4s
-[00:23:40.363] Server  LOG     ✓ Compiled in 765ms
-[00:23:41.563] Server  LOG     ✓ Compiled in 518ms
-[00:23:54.988] Server  LOG     ✓ Compiled in 8.2s
-[00:23:56.921] Server  LOG     ✓ Compiled in 1687ms
-[00:23:57.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:58.158] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} forbidden={undefined} ...>
-      <RedirectBoundary>
-        <RedirectErrorBoundary router={{...}}>
-          <Head>
-          <__next_root_layout_boundary__>
-            <SegmentViewNode type="layout" pagePath="layout.tsx">
-              <SegmentTrieNode>
-              <link>
-              <script>
-              <script>
-              <RootLayout>
-                <html lang="en">
-                  <body className="font-sans ...">
-                    <Navigation>
-                      <nav className="fixed top-...">
-                        <div className="max-w-7xl ...">
-                          <div className="flex justi...">
-                            <LinkComponent>
-                            <div className="hidden lg:...">
-                              <LinkComponent>
-                              <LinkComponent href="/#about" className="relative c..." ...>
->                               <a
->                                 className="relative cursor-pointer group"
->                                 onMouseLeave={function onMouseLeave}
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/#about"
->                               >
-                                  <button>
-                                  <div className="absolute l...">
-                                    <LinkComponent href="/#mission-..." className="block px-4...">
->                                     <a
->                                       className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#35..."
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/#mission-vision"
->                                     >
-                                    ...
-                              ...
-                            ...
-                    ...
-          ...
-
-[00:23:58.158] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:23:58.158] Browser ERROR   uncaughtError: Error: Could not parse module '[project]/components/Footer.tsx'
-
-Expected '</', got '}'
-[00:23:59.347] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:23:59.350] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/Footer.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:23:59.351] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:23:59.353] Server  LOG     ✓ Compiled in 671ms
-[00:24:02.462] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:03.171] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} forbidden={undefined} ...>
-      <RedirectBoundary>
-        <RedirectErrorBoundary router={{...}}>
-          <Head>
-          <__next_root_layout_boundary__>
-            <SegmentViewNode type="layout" pagePath="layout.tsx">
-              <SegmentTrieNode>
-              <link>
-              <script>
-              <script>
-              <RootLayout>
-                <html lang="en">
-                  <body className="font-sans ...">
-                    <Navigation>
-                      <nav className="fixed top-...">
-                        <div className="max-w-7xl ...">
-                          <div className="flex justi...">
-                            <LinkComponent>
-                            <div className="hidden lg:...">
-                              <LinkComponent>
-                              <LinkComponent href="/#about" className="relative c..." ...>
->                               <a
->                                 className="relative cursor-pointer group"
->                                 onMouseLeave={function onMouseLeave}
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/#about"
->                               >
-                                  <button>
-                                  <div className="absolute l...">
-                                    <LinkComponent href="/#mission-..." className="block px-4...">
->                                     <a
->                                       className="block px-4 py-2.5 text-[#231F20] hover:bg-[#EFEFEF] hover:text-[#35..."
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/#mission-vision"
->                                     >
-                                    ...
-                              ...
-                            ...
-                    ...
-          ...
-
-[00:24:03.171] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:24:03.171] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <Head>
-        <__next_root_layout_boundary__>
-          <SegmentViewNode type="layout" pagePath="layout.tsx">
-            <SegmentTrieNode>
-            <link>
-            <script>
-            <script>
-            <RootLayout>
-              <html lang="en">
-                <body className="font-sans ...">
-                  <Navigation>
-                    <nav className="fixed top-...">
-                      <div className="max-w-7xl ...">
-                        <div className="flex justi...">
-                          <LinkComponent>
-                          <div className="hidden lg:...">
-                            <LinkComponent>
-                            <LinkComponent href="/#about" className="relative c..." onMouseEnter={function onMouseEnter} ...>
-                              <a className="relative c..." onMouseLeave={function onMouseLeave} ref={function} ...>
-                                <button>
-+                               <div
-+                                 className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisib..."
-+                               >
-                            ...
-                          ...
-                  ...
-        ...
-
-[00:24:03.608] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:24:03.608] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:24:03.608] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:24:03.608] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773142736264}
-[00:24:03.609] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773142736265}
-[00:24:05.012] Server  LOG     ✓ Compiled in 1640ms
-[00:24:10.745] Server  LOG     ✓ Compiled in 2.9s
-[00:28:11.765] Server  LOG     ✓ Compiled in 177ms
-[00:28:20.942] Server  LOG     ✓ Compiled in 326ms
-[00:28:21.940] Browser ERROR   ./components/Footer.tsx:104:19
-Parsing ecmascript source code failed
-  102 |                   key={social.name}
-  103 |                   href=
-> 104 |                   className="w-10 h-10 rounded-lg border border-white/30 flex items-center justify-center text-white/70 hover:border-[#355FA8] hover:bg-[#355FA8]/20 hover:text-[#355FA8] transition-all duration-300"
-      |                   ^^^^^^^^^
-  105 |                   title={social.name}
-  106 |                 >
-  107 |                   {social.icon}
-
-Expected '</', got 'ident'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./app/layout.tsx
-[00:28:22.061] Server  LOG     ✓ Compiled in 349ms
-[00:28:29.182] Server  LOG     ✓ Compiled in 313ms
-[00:28:30.434] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true tar tar true tar
-[00:28:30.476] Server  LOG     ✓ Compiled in 339ms
-[00:28:33.233] Server  LOG     ✓ Compiled in 181ms
-[00:28:36.109] Server  LOG     ✓ Compiled in 331ms
-[00:33:15.382] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773143287494}
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img374.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img368.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img370.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img378.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img376.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img372.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img382.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img380.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img384.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img388.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img390.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img392.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img394.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img396.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img400.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img398.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img404.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img402.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img406.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img408.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img410.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img414.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img412.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img416.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img418.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img420.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img508.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img511.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img513.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img515.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img517.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img519.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img521.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.382] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img525.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img523.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img527.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img529.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img537.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img531.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img533.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img535.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img543.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img545.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img539.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img541.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img547.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img549.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img551.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img553.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img555.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:15.383] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img557.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:16.677] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img576.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:16.677] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img579.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:16.677] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img580.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:16.677] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img582.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:24.945] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img584.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:24.945] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img586.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:24.945] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img588.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:24.945] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img590.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.773] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img592.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.773] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img594.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.773] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img598.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.773] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img600.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.774] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img602.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.774] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img604.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.774] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img606.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.774] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img612.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.775] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img610.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.775] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img614.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.775] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img596.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:25.775] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img608.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:28.789] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img620.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:28.789] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img618.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:28.789] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img616.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:28.789] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img622.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:28.789] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img624.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:28.789] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img626.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:34.951] Server  LOG     ✓ Finished filesystem cache database compaction in 15.3s
+[00:13:51.959] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:13:51.959] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:13:51.960] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:13:51.960] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773147983131}
+[00:13:51.960] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773147983133}
+[00:14:42.946] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773148034963}
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img1.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img2.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img3.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img5.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img6.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img4.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img7.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img8.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img9.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img10.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img11.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img12.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img15.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img16.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img14.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.224] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img17.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.225] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img13.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.663] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img23.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img20.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img21.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img22.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img19.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img24.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img25.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img26.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img27.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img28.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img29.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img30.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img31.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img33.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img34.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img35.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img36.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img32.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img38.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img37.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img40.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img41.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img42.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img39.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img43.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img45.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img46.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img47.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img44.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.664] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img48.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.665] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img49.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.665] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img50.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.665] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img51.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:43.665] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img52.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:51.221] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img56.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:51.222] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img55.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:51.222] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img53.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:51.222] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img54.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:51.460] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img59.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:51.460] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img58.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:51.460] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img57.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:51.460] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img60.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img61.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img62.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img64.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img63.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img66.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img65.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img67.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img71.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img70.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img69.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img73.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img72.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img68.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img74.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img75.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:54.624] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img76.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:56.403] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img78.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:56.403] Browser WARN    Image with src "http://localhost:3000/clients-grid-imgs/img77.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:17:03.431] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773148167228}
